@@ -15,7 +15,7 @@ setup(
     long_description_content_type="text/markdown",
     license="Apache License 2.0",
     url="https://www.SBERT.net",
-    download_url="https://github.com/UKPLab/sentence-transformers/",
+    download_url="https://github.com/tattrongvu/sentence-transformers/",
     packages=find_packages(),
     python_requires=">=3.6.0",
     install_requires=[
@@ -29,6 +29,7 @@ setup(
         'nltk',
         'sentencepiece',
         'huggingface-hub>=0.4.0'
+        'optimum'
     ],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
